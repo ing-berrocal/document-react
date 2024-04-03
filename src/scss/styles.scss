@@ -1,0 +1,11 @@
+@import "~bootstrap/scss/bootstrap";
+
+.navMenuScrollHide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .navMenuScrollHide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
